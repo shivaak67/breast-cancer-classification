@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment and local config
+.env
+.env.*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data and generated artifacts
+data/raw/*
+data/processed/*
+models/saved_models/*
+outputs/figures/*
+outputs/results/*
+
+# Keep empty directory placeholders
+!.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/saved_models/.gitkeep
+!outputs/figures/.gitkeep
+!outputs/results/.gitkeep
