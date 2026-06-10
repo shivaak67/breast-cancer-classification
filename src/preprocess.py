@@ -14,7 +14,7 @@ def load_data():
     df = pd.DataFrame(data.data, columns=data.feature_names)
     df["target"] = data.target
     return df, data.target_names
-
+    
 
 def preprocess_data(test_size=0.2, random_state=42):
     """Split features/target and return scaled train/test sets."""
