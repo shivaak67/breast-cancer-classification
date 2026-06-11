@@ -2,11 +2,12 @@ from pathlib import Path
 
 import joblib
 import pandas as pd
+import numpy as np
 import streamlit as st
 from sklearn.datasets import load_breast_cancer
 
 PROJECT_ROOT = Path(__file__).resolve().parent
-MODELS_DIR = PROJECT_ROOT / "models"
+MODELS_DIR = PROJECT_ROOT / "models" / "saved_models"
 
 TOP_FEATURES = [
     "worst concave points",
