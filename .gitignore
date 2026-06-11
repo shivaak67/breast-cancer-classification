@@ -25,6 +25,8 @@ Thumbs.db
 data/raw/*
 data/processed/*
 models/saved_models/*
+!models/saved_models/*.pkl
+!models/saved_models/.gitkeep
 outputs/figures/*
 outputs/results/*
 
