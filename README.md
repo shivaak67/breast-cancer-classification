@@ -69,6 +69,32 @@ Python · pandas · scikit-learn · matplotlib · seaborn · Streamlit · joblib
 
 ---
 
+## Project structure
+
+```
+breast-cancer-ml/
+├── app.py                      # Streamlit demo
+├── notebooks/
+│   ├── 1_eda.ipynb             # Exploratory data analysis
+│   ├── 2_preprocessing.ipynb   # Train/test split and scaling
+│   └── 3_modeling.ipynb        # Model training and evaluation
+├── src/
+│   ├── preprocess.py           # Load data, split, scale
+│   ├── train.py                # Train and save model
+│   └── evaluate.py             # Evaluate and save metrics/plots
+├── models/saved_models/        # Trained model and scaler (.pkl)
+├── outputs/
+│   ├── figures/                # Saved plots
+│   └── results/                # Saved metrics
+├── data/
+│   ├── raw/                    # Reserved for raw data files
+│   └── processed/              # Reserved for processed data files
+├── requirements.txt
+└── README.md
+```
+
+---
+
 ## Run locally
 
 ```bash
