@@ -37,17 +37,17 @@ Only **2 misclassifications** out of 114 test samples.
 
 ### Exploratory data analysis
 
-[placeholder — EDA correlation heatmap or class distribution plot]
+![Feature correlation heatmap](docs/images/eda_correlation_heatmap.png)
 
 ### Model evaluation
 
-[placeholder — confusion matrix heatmap]
+![Confusion matrix](docs/images/confusion_matrix.png)
 
 ### Streamlit app
 
-[placeholder — Streamlit app home screen]
+![Streamlit app home screen](docs/images/streamlit_home.png)
 
-[placeholder — Streamlit prediction result]
+![Streamlit prediction result](docs/images/streamlit_prediction.png)
 
 ---
 
@@ -89,6 +89,7 @@ breast-cancer-ml/
 ├── data/
 │   ├── raw/                    # Reserved for raw data files
 │   └── processed/              # Reserved for processed data files
+├── docs/images/                # README screenshots
 ├── requirements.txt
 └── README.md
 ```
