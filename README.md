@@ -2,7 +2,7 @@
 
 End-to-end machine learning project that predicts whether a breast tumor is **malignant** or **benign** from cell nucleus measurements — with **98.25% test accuracy** and an interactive **Streamlit** demo.
 
-**Live demo:** [placeholder — add Streamlit Cloud URL after deploy]
+**Live demo:** [https://breast-cancer-classification-hdjanca1.streamlit.app/]
 
 **Repository:** [github.com/shivaak67/breast-cancer-classification](https://github.com/shivaak67/breast-cancer-classification)
 
